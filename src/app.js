@@ -10,8 +10,6 @@ var template =
         </ol>
     </div>;
 
-// Creacte a templateTwo var JSX expression 
-
 var appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
