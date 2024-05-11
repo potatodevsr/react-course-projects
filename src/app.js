@@ -10,6 +10,14 @@ var template =
         </ol>
     </div>;
 
+// create a templateTwo var JSX expression
+var templateTwo =
+    <div>
+        <h1>Name: Chadapohn Sorakanit</h1>
+        <p>Age: 26</p>
+        <p>Location: Thailand</p>
+    </div>;
+
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);
