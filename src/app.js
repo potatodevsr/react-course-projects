@@ -1,12 +1,12 @@
 console.log('App.js is running!');
 
-var app = {
+const app = {
     title: 'Indecision App',
     subtitle: 'Put your life in the hands of a computer',
     options: ['One', 'Two']
 };
 
-var template =
+const template =
     <div>
         <h1>{app.title}</h1>
         {/*  ถ้า app.subtitle มีค่าให้แสดง <p> ที่มีค่า subtitle ภายใน */}
@@ -19,7 +19,7 @@ var template =
         </ol>
     </div >;
 
-var user = {
+const user = {
     name: 'Chadapohn',
     age: 26,
     location: 'Thailand'
@@ -34,7 +34,7 @@ function getLocation(location) {
     }
 }
 
-var templateTwo =
+const templateTwo =
     <div>
         {/* ถ้า user.name มีค่า จะนำชื่อของ user มาแสดง; หากไม่มี, แสดงว่า 'Anonymous' */}
         <h1>{user.name ? user.name : 'Anonymous'}</h1>
@@ -43,6 +43,6 @@ var templateTwo =
         {getLocation(user.location)}
     </div>;
 
-var appRoot = document.getElementById('app');
+const appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
