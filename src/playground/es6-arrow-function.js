@@ -16,6 +16,4 @@ console.log('es6-arrow-function.js');
 // };
 
 const getFirstName = (fullName) => fullName.split(' ')[0];
-console.log(getFirstName('Chadapohn Sorakanit'))
-
-    ;
+console.log(getFirstName('Chadapohn Sorakanit'));
